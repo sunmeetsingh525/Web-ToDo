@@ -7,10 +7,16 @@ namespace ToDoListMvc.Controllers
 {
     public class ToDoListController : Controller
     {
-        private static List<ToDoItem> _toDoItems = new List<ToDoItem>();
+        private readonly ToDoDbContext _context;
+
+    public ToDoListController(ToDoDbContext context)
+    {
+        _context = context;
+    }
 
         public IActionResult Index()
         {
+            var toDoItems = _context.ToDoItems.ToList();
             return View(_toDoItems);
         }
 

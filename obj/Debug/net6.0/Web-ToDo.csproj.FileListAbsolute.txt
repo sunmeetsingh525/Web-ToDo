@@ -1,0 +1,8 @@
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.csproj.AssemblyReference.cache
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.AssemblyInfoInputs.cache
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.AssemblyInfo.cs
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.csproj.CoreCompileInputs.cache
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.MvcApplicationPartsAssemblyInfo.cache
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.RazorAssemblyInfo.cache
+D:\Web-Todo\Web-ToDo\obj\Debug\net6.0\Web-ToDo.RazorAssemblyInfo.cs
