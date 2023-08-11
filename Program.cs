@@ -3,6 +3,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//builder.Services.AddDbContext<ToDoDbContext>(options =>
+ //   options.UseSqlite(@"Data Source=c:\Temp\mydb.db;"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

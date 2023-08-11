@@ -5,41 +5,48 @@ using ToDoListMvc.Models;
 
 namespace ToDoListMvc.Controllers
 {
+    // Controller for managing ToDoList actions.
     public class ToDoListController : Controller
     {
         private readonly ToDoDbContext _context;
 
-    public ToDoListController(ToDoDbContext context)
-    {
-        _context = context;
-    }
-
-        public IActionResult Index()
+        // Constructor injecting the ToDoDbContext via dependency injection.
+        public ToDoListController(ToDoDbContext context)
         {
-            var toDoItems = _context.ToDoItems.ToList();
-            return View(_toDoItems);
+            _context = context;
         }
 
+        // Displays a list of ToDoItems.
+        public IActionResult Index()
+        {
+            var ToDoItems = _context.ToDoItems.ToList();
+            return View(_context.ToDoItems);
+        }
+
+        // Displays the form for creating a new ToDoItem.
         public IActionResult Create()
         {
             return View();
         }
 
+        // Handles the HTTP POST request to create a new ToDoItem.
         [HttpPost]
         public IActionResult Create(ToDoItem toDoItem)
         {
             if (ModelState.IsValid)
             {
-                toDoItem.Id = _toDoItems.Count + 1;
-                _toDoItems.Add(toDoItem);
+                // Set a unique Id for the new ToDoItem.
+                toDoItem.Id = _context.ToDoItems.Count() + 1;
+                _context.ToDoItems.Add(toDoItem);
                 return RedirectToAction("Index");
             }
             return View(toDoItem);
         }
 
+         // Displays the form for editing an existing ToDoItem.
         public IActionResult Edit(int id)
         {
-            var toDoItem = _toDoItems.FirstOrDefault(item => item.Id == id);
+            var toDoItem = _context.ToDoItems.FirstOrDefault(item => item.Id == id);
             if (toDoItem == null)
             {
                 return NotFound();
@@ -52,9 +59,10 @@ namespace ToDoListMvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                var existingItem = _toDoItems.FirstOrDefault(item => item.Id == toDoItem.Id);
+                var existingItem = _context.ToDoItems.FirstOrDefault(item => item.Id == toDoItem.Id);
                 if (existingItem != null)
                 {
+                    // Update the properties of the existing ToDoItem.
                     existingItem.Title = toDoItem.Title;
                     existingItem.Description = toDoItem.Description;
                     existingItem.IsDone = toDoItem.IsDone;
@@ -64,9 +72,10 @@ namespace ToDoListMvc.Controllers
             return View(toDoItem);
         }
 
+        // Displays the confirmation page for deleting a ToDoItem.
         public IActionResult Delete(int id)
         {
-            var toDoItem = _toDoItems.FirstOrDefault(item => item.Id == id);
+            var toDoItem = _context.ToDoItems.FirstOrDefault(item => item.Id == id);
             if (toDoItem == null)
             {
                 return NotFound();
@@ -78,10 +87,11 @@ namespace ToDoListMvc.Controllers
         [ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            var toDoItem = _toDoItems.FirstOrDefault(item => item.Id == id);
+            // Find the ToDoItem to be deleted.
+            var toDoItem = _context.ToDoItems.FirstOrDefault(item => item.Id == id);
             if (toDoItem != null)
             {
-                _toDoItems.Remove(toDoItem);
+                _context.ToDoItems.Remove(toDoItem);
             }
             return RedirectToAction("Index");
         }
