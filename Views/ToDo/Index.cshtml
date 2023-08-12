@@ -2,8 +2,10 @@
 
 <h2>ToDo Items</h2>
 
+<!-- Link to create a new ToDo item -->
 <a asp-action="Create" class="btn btn-primary">Create New</a>
 
+<!-- Table to display the list of ToDo items -->
 <table class="table">
     <thead>
         <tr>
@@ -16,6 +18,7 @@
     <tbody>
         @foreach (var item in Model)
         {
+             <!-- Display details of each ToDo item -->
             <tr>
                 <td>@item.Title</td>
                 <td>@item.Description</td>
