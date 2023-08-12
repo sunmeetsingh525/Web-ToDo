@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Web_ToDo
 build_property.RootNamespace = Web_ToDo
-build_property.ProjectDir = D:\Web-Todo\Web-ToDo\
+build_property.ProjectDir = d:\Web-Todo\Web-ToDo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Web-Todo\Web-ToDo
+build_property.MSBuildProjectDirectory = d:\Web-Todo\Web-ToDo
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Web-Todo/Web-ToDo/Views/Home/Index.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/Home/Privacy.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/Shared/Error.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/ToDo/Create.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/ToDo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/ToDo/Delete.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/ToDo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/ToDo/Edit.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/ToDo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/ToDo/Index.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/ToDo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/_ViewImports.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/_ViewStart.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web-Todo/Web-ToDo/Views/Shared/_Layout.cshtml]
+[d:/Web-Todo/Web-ToDo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nf059m79fa
