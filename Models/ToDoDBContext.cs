@@ -1,16 +1,22 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ToDoListMvc.Models
+namespace WebToDo.Models
 {
-// Represents the database context for ToDoItem entities
     public class ToDoDbContext : DbContext
     {
-        // Constructor initializes the context with provided options
         public ToDoDbContext(DbContextOptions<ToDoDbContext> options)
             : base(options)
         {
         }
-        // Collection of ToDoItem entities in the database.
+
         public DbSet<ToDoItem> ToDoItems { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ToDoItem>().HasData(
+                new ToDoItem { Id = 1, Title = "Task 1", Description = "Description 1", IsDone = false },
+                new ToDoItem { Id = 2, Title = "Task 2", Description = "Description 2", IsDone = true }
+            );
+        }
     }
 }

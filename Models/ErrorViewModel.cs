@@ -1,4 +1,4 @@
-namespace Web_ToDo.Models;
+namespace WebToDo.Models;
 
 public class ErrorViewModel
 {

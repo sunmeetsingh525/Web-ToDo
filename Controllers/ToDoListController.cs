@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using ToDoListMvc.Models;
+using WebToDo.Models;
 
-namespace ToDoListMvc.Controllers
+namespace WebToDo.Controllers
 {
     // Controller for managing ToDoList actions.
     public class ToDoListController : Controller

@@ -1,0 +1,25 @@
+@model WebToDo.Models.ToDoItem
+
+<h2>Create ToDo Item</h2>
+
+<!-- Begin form for creating a new ToDo item -->
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsDone"></label>
+        <input asp-for="IsDone" class="form-check-input" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+
+<!-- Link to go back to the list of ToDo items -->
+<a asp-action="Index">Back to List</a>

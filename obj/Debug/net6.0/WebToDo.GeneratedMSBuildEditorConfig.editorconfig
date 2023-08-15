@@ -7,55 +7,55 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Web_ToDo
-build_property.RootNamespace = Web_ToDo
-build_property.ProjectDir = D:\Cambrian\web\Web-ToDo\
+build_property.RootNamespace = WebToDo
+build_property.RootNamespace = WebToDo
+build_property.ProjectDir = D:\Cambrian\web\WebToDo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Cambrian\web\Web-ToDo
+build_property.MSBuildProjectDirectory = D:\Cambrian\web\WebToDo
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Cambrian/web/Web-ToDo/Views/Home/Error.cshtml]
+[D:/Cambrian/web/WebToDo/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/Home/Index.cshtml]
+[D:/Cambrian/web/WebToDo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/Home/Privacy.cshtml]
+[D:/Cambrian/web/WebToDo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Cambrian/web/WebToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/ToDoItem/Create.cshtml]
+[D:/Cambrian/web/WebToDo/Views/ToDoItem/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb0l0ZW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/ToDoItem/Delete.cshtml]
+[D:/Cambrian/web/WebToDo/Views/ToDoItem/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb0l0ZW1cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/ToDoItem/Edit.cshtml]
+[D:/Cambrian/web/WebToDo/Views/ToDoItem/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb0l0ZW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/ToDoItem/Index.cshtml]
+[D:/Cambrian/web/WebToDo/Views/ToDoItem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9Eb0l0ZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/_ViewImports.cshtml]
+[D:/Cambrian/web/WebToDo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/_ViewStart.cshtml]
+[D:/Cambrian/web/WebToDo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cambrian/web/Web-ToDo/Views/Shared/_Layout.cshtml]
+[D:/Cambrian/web/WebToDo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-nf059m79fa
+build_metadata.AdditionalFiles.CssScope = b-f47nimxxp7

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace ToDoListMvc.Models
+namespace WebToDo.Models
 {
     public class ToDoItem
     {
